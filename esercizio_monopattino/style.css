@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: url(img/background.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.content {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  width: 900px;
+  height: 700px;
+}
+
+.content .logo {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+}
+
+.content h2 {
+  color: #00ff00;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content ul {
+  background: #00ff00;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.content ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.content ul li a {
+  background: #fff;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid black;
+  font-size: 18px;
+}
+
+/* ITEMS CSS */
+
+div .item {
+  margin: 20px 0;
+  color: #fff;
+  line-height: 1.5rem;
+
+}
+
+div .item > input {
+  margin-right: 2px;
+}
+
+
+
+
+
+
+.item .carica-gino22 {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  background: yellow;
+  margin: 5px 0;
+}
+
+.item .carica-mike24 {
+  height: 30px;
+  width: 500px;
+  border-radius: 5px;
+  background: green;
+  margin: 5px 0;
+}
+
+.item .carica-fede154 {
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  background: red;
+  margin: 5px 0;
+}
